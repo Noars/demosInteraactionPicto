@@ -105,7 +105,7 @@ export class TranslatePictoComponent implements OnInit {
         this.editionService.imageSelected.push('null');
       });
       //this.duplicateCaseKey(this.keyPicto);
-    },numberOfWord.length * 200);
+    },numberOfWord.length * 500);
   }
 
   convertTextToString(text: any){

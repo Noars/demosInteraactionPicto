@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import { TranslatePictoComponent } from './components/translate-picto/translate-picto.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-//import {IvyCarouselModule} from "angular-responsive-carousel";
+import {IvyCarouselModule} from "angular-responsive-carousel";
 import {MatInputModule} from "@angular/material/input";
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from "@angular/common/http";
@@ -87,7 +87,7 @@ export function createTranslateLoader(http: HttpClient) {
     MatButtonModule,
     ReactiveFormsModule,
     FormsModule,
-    //IvyCarouselModule,
+    IvyCarouselModule,
     NgImageSliderModule,
     MatInputModule,
     HttpClientModule,
